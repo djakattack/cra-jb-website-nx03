@@ -1,5 +1,4 @@
-import logo from './assetts/images/logo-white.png';
-import './App.css';
+import logo from './assets/images/logo-black.png';
 import NavContainer from './components/Nav';
 
 function App() {
@@ -8,7 +7,9 @@ function App() {
       <header className="App-header">
         <NavContainer />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <img src={logo} alt="logo"/>
+        <div className="logo-main">
+          <img src={logo} alt="logo"/>
+        </div>
         <p>
           Johnny Bull's Steakhouse
         </p>

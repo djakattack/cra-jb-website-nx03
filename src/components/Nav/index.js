@@ -3,7 +3,9 @@ import Nav from './Nav';
 
 const NavContainer = () => {
     return (
-        <Nav />
+        <nav>
+            <Nav />
+        </nav>
     )
 }
 
