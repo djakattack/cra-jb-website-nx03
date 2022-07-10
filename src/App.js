@@ -10,7 +10,7 @@ function App() {
           <NavContainer />
           <Routes>
             <Route exact path="/" component={HomeContainer} />
-            <Route exact path="/menu" component={MenuContainer} />
+            <Route exact path="menu" component={MenuContainer} />
           </Routes>
       </div>
     </Router>

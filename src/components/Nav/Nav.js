@@ -5,8 +5,12 @@ const Nav = () => {
         <div className="container">
             <div id="navigation-bar">
                 <ul>
-                    <li>Home</li>
-                    <li>Menu</li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/menu">Menu</a>
+                    </li>
                 </ul>
             </div>
         </div>
