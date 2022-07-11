@@ -9,8 +9,8 @@ function App() {
       <div className="App">
           <NavContainer />
           <Routes>
-            <Route exact path="/" component={HomeContainer} />
-            <Route exact path="menu" component={MenuContainer} />
+            <Route exact path="/" element={ <HomeContainer /> } />
+            <Route exact path="menu" element={ <MenuContainer />} />
           </Routes>
       </div>
     </Router>
