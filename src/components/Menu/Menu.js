@@ -9,25 +9,26 @@ import Soups from "./Soups";
 const Menu = () => {
     return (
         <main className="menu-container">
-            <div className='menu'>
-                <h1 className="menu__name">Menu</h1>
+                <h1>Menu</h1>
+            <div>
+                <div className="menu">
+                <Appetizers />
+
+                </div>            
+                <Lunch />
+                <Dinner />
+                <Salad />
+                <Specials />
+                <Soups />
+                
+                <p> 
+                    Johnny Bull's Steakhouse<br/>
+                    32 Golden Leaf Dr<br/>
+                    Louisburg, NC 27549<br/><br/>
+
+                    Phone: (919)496-3800
+                </p>
             </div>
-            
-            <Appetizers />
-            <Lunch />
-            <Dinner />
-            <Salad />
-            <Specials />
-            <Soups />
-            
-            <p className="info"> 
-                Johnny Bull's Steakhouse<br/>
-                32 Golden Leaf Dr<br/>
-                Louisburg, NC 27549<br/><br/>
-
-                Phone: (919)496-3800
-            </p>
-
         </main>
     )
 };

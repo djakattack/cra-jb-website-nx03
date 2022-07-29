@@ -1,6 +1,17 @@
 @import './assets/styles/reset';
 @import './assets/styles/nav';
-
+@import './assets/styles/menu';
+@import './assets/styles/logo';
+// @import './assets/images/IMG_1204.jpeg';
 body {
   background: #ebebeb;
+}
+
+.upper {
+  height: 40vh;
+  // background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+  background-image: url(assets/images/IMG_1204.jpeg);
+  // background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

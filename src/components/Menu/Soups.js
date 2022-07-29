@@ -2,8 +2,7 @@ import React from 'react';
 
 const Soup = () => {
     return (
-        <div id="Soup" className='jobs'>
-            <div className="jobs__job">
+        <div>
                 <h1>Soups</h1>
                 <p>
                     <ul>
@@ -45,7 +44,6 @@ const Soup = () => {
                 <h2>Saturday</h2>
                 <li>Clam Chowder</li>
             </div>
-        </div>
     )
 };
 

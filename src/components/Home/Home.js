@@ -1,18 +1,18 @@
 import React from 'react';
-import logo from '../../assets/images/logo-black.png';
+// import logo from '../../ass ets/images/logo-black.png';
 
 const Home = () => {
     return (
-        <div>
-            <div className="logo-main">
-            <img src={logo} alt="logo"/>
-            </div>
-            <p>
-            Johnny Bull's Steakhouse
-            </p>
-            <p>
-            <i>a great meal is around the corner!</i>
-            </p>
+        <div className="App">
+            <header className="App-Header">
+                {/* <img src={logo} className="App-logo" alt="App-logo"/> */}
+                <p>
+                Johnny Bull's Steakhouse
+                </p>
+                <p>
+                <i>a great meal is around the corner!</i>
+                </p>
+            </header>
         </div>
     )
 }
