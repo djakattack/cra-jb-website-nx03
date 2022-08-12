@@ -2,70 +2,82 @@ import React from 'react';
 
 const Salad = () => {
     return (
-        <div>
+        <div className="salad-bar">
             <h1>Salad Bar</h1>
-            <ul>
-                <li>
-                    <ul>Lettuce</ul>
-                    <ul>Spinch</ul>
-                    <ul>Cottage Cheese</ul>
-                    <ul>Peaches</ul>
-                    <ul>Pineapple</ul>
-                    <ul>Radish</ul>
-                    <ul>Mushroom</ul>
-                    <ul>Jalapeño</ul>
-                    <ul>Pepperoncini</ul>
-                    <ul>Oysters</ul>
-                    <ul>Beets</ul>
-                    <ul>Onions</ul>
-                    <ul>Cucumber</ul>
-                </li>
-                <li>
-                    <ul>Pickles</ul>
-                    <ul>Chives</ul>
-                    <ul>Carrots</ul>
-                    <ul>Sliced Tomato</ul>
-                    <ul>Grape Tomato</ul>
-                    <ul>Black Olive</ul>
-                    <ul>Broccoli</ul>
-                    <ul>Cheese</ul>
-                    <ul>Ham</ul>
-                    <ul>Bacon</ul>
-                    <ul>Green Pepper</ul>
-                    <ul>Eggs</ul>
-                    <ul>Potato Salad</ul>
-                </li>
-            </ul>
-            <h2>Dressings</h2>
-            <li>
-                <ul>Ranch</ul>
-                <ul>Thousand Island</ul>
-                <ul>Honey Mustard</ul>
-                <ul>Sweet French (Red)</ul>
-                <ul>Tangy French (Orange)</ul>
-            </li>
-            <li>
-                <ul>Blue Cheese</ul>
-                <ul>Caeser</ul>
-                <ul>Italian</ul>
-                <ul>House (Greek)</ul>
-            </li>
-            <h2>Toppers</h2>
-            <li>
-                <ul>Croutons</ul>
-                <ul>Goldfish</ul>
-                <ul>French Fried Onions</ul>
-            </li>
-            <li>
-                <ul>Raisins</ul>
-                <ul>Peanuts</ul>
-                <ul>Sunflower Seeds</ul>
-            </li>
-            <li>
-                <ul>Captain Wafers</ul>
-                <ul>Wheat Thin</ul>
-                <ul>Saltines</ul>
-            </li>
+            <div>
+                <p>Enjoy a salad from our salad bar.  Each of our salads are made to order to your specifications.  Below is a complete list of what's available.</p>
+                <br/>
+                <ul>
+                    <li className="addons">Add Chicken <span>$2.99</span></li>
+                    <li className="addons">Add Shrimp <span>$3.99</span></li>
+                    <li className="addons">Add Steak <span>$4.99</span></li>
+                    <li className="addons">Add Salmon <span>$6.99</span></li>
+                </ul>
+            </div>
+            <div className="salad-bar-container">
+                <br />
+                <div className="row">
+                    <ul className="column">
+                        <li>Lettuce</li>
+                        <li>Spinach</li>
+                        <li>Cottage Cheese</li>
+                        <li>Peaches</li>
+                        <li>Pineapple</li>
+                        <li>Radish</li>
+                        <li>Mushroom</li>
+                        <li>Jalapeño</li>
+                        <li>Pepperoncini</li>
+                        <li>Oysters</li>
+                        <li>Beets</li>
+                        <li>Onions</li>
+                        <li>Cucumber</li>
+                    </ul>
+                    <ul className="column">
+                        <li>Pickles</li>
+                        <li>Chives</li>
+                        <li>Carrots</li>
+                        <li>Sliced Tomato</li>
+                        <li>Grape Tomato</li>
+                        <li>Black Olive</li>
+                        <li>Broccoli</li>
+                        <li>Cheese</li>
+                        <li>Ham</li>
+                        <li>Bacon</li>
+                        <li>Green Pepper</li>
+                        <li>Eggs</li>
+                        <li>Potato Salad</li>
+                    </ul>
+                </div>
+                <h2>Dressings</h2>
+                <div className="row">
+                    <ul className="column">
+                        <li>Ranch</li>
+                        <li>Thousand Island</li>
+                        <li>Honey Mustard</li>
+                        <li>Sweet French (Red)</li>
+                        <li>Tangy French (Orange)</li>
+                    </ul>
+                    <ul className="column">
+                        <li>Blue Cheese</li>
+                        <li>Caeser</li>
+                        <li>Italian</li>
+                        <li>House (Greek)</li>
+                    </ul>
+                </div>
+                <h2>Toppers</h2>
+                <div className="row">
+                    <ul className="column">
+                        <li>Croutons</li>
+                        <li>Goldfish</li>
+                        <li>French Fried Onions</li>
+                    </ul>
+                    <ul className="column">
+                        <li>Raisins</li>
+                        <li>Peanuts</li>
+                        <li>Sunflower Seeds</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 };

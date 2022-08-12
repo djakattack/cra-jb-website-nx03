@@ -2,12 +2,23 @@ nav {
     .container {
         width: 100vw;
         display: inline-block;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        height: 3.8rem;
+        background:  linear-gradient(#000, #000, #00000056);
+        z-index: 1;
     }
-    overflow: hidden;
-    background-color: #000;
-    position: relative; // Relative position keeps logo from overlapping with nav bar.
-    top: 0;
-    width: 100%;
+    .logo {
+        position: fixed;
+        margin-left: 0.25rem;
+        margin-top: 0.25rem;
+        width: 4.5rem;
+        height: 3rem;
+    }
+
+
     ul {
         text-align: center;
         list-style-type: none;

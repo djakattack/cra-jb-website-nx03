@@ -5,6 +5,9 @@ import Dinner from "./Dinner";
 import Salad from "./Salad";
 import Specials from "./Specials";
 import Soups from "./Soups";
+import Steaks from './Steaks';
+import Sides from './Sides';
+import Desserts from './Desserts';
 
 const Menu = () => {
     return (
@@ -13,11 +16,13 @@ const Menu = () => {
             <div>
                 <div className="menu">
                 <Appetizers />
-
                 </div>            
+                <Salad />
+                <Sides />
+                <Desserts />
+                <Steaks />
                 <Lunch />
                 <Dinner />
-                <Salad />
                 <Specials />
                 <Soups />
                 

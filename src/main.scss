@@ -3,15 +3,54 @@
 @import './assets/styles/menu';
 @import './assets/styles/logo';
 // @import './assets/images/IMG_1204.jpeg';
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+$navheight: 10vh;
+
 body {
-  background: #ebebeb;
+  background-color: #ebebeb;
 }
 
-.upper {
-  height: 40vh;
-  // background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
-  background-image: url(assets/images/IMG_1204.jpeg);
-  // background-color: red;
-  background-repeat: no-repeat;
-  background-size: cover;
+// HOME
+.intro{
+  position: relative;
+  // z-index: 10;
+}
+
+.lower {
+  height: 100vh;
+}
+
+
+// SALAD BAR STYLING
+.salad-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  &-container{
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  p {
+    padding: 0.5rem;
+  }
+  .addons {
+    float: left;
+    padding: 0.5rem;
+  }
+  h1 {
+    font-family: 'Special Elite';
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  };
 }
