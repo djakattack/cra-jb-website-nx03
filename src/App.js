@@ -8,12 +8,10 @@ function App() {
   return (
     <Router>
       <NavContainer />
-      <div>
-          <Routes>
-            <Route exact path="/" element={ <HomeContainer /> } />
-            <Route exact path="menu" element={ <MenuContainer />} />
-          </Routes>
-      </div>
+      <Routes>
+        <Route exact path="/" element={ <HomeContainer /> } />
+        <Route exact path="menu" element={ <MenuContainer />} />
+      </Routes>
     </Router>
   );
 }
