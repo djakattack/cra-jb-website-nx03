@@ -1,10 +1,8 @@
 import React from 'react';
-import logo from '../../assets/images/logo-white.png';
 
 const Nav = () => {
     return (
         <div className="container">
-            <img src={logo} alt="alt" className="logo" />
             <div id="navigation-bar">
                 <ul>
                     <li>

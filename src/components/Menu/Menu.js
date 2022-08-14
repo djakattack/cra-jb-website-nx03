@@ -24,16 +24,6 @@ const Menu = () => {
                 <Steaks />
                 <Lunch />
                 <Dinner />
-                <Specials />
-                <Soups />
-                
-                <p> 
-                    Johnny Bull's Steakhouse<br/>
-                    32 Golden Leaf Dr<br/>
-                    Louisburg, NC 27549<br/><br/>
-
-                    Phone: (919)496-3800
-                </p>
             </div>
         </main>
     )

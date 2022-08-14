@@ -5,7 +5,6 @@ const Home = () => {
     var currentDate = new Date();
     var currentDay = currentDate.getDay();
     var currentTime = currentDate.getHours();
-
     var shift;
     var isLunch;
 
@@ -67,14 +66,15 @@ const Home = () => {
     ]
 
     return (
-        <div className="home-container">
-            <div className="intro">
-                <img src={steak} alt="steak"/>
+        <div className="home_container">
+            <img src={steak} alt="steak"/>
+            <div className="tagline">
+                <p>A Good Meal is Around the Corner!</p>
             </div>
-            <div className="lower">
+            <div className="specials">
                 <h1>Today's Special</h1>
                 { isLunch ? offers[currentDay].lunch : offers[currentDay].dinner}
-                <h2>Soup of the Day</h2>
+                <h1>Soup of the Day</h1>
                 {offers[currentDay].soup1}<br/>
                 {offers[currentDay].soup2}<br/>
             </div>
