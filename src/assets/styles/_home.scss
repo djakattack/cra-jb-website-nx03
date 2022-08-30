@@ -1,17 +1,29 @@
 .home_container{
 
-    .tagline{
-        text-align: center;
-        font-size: 2rem;
-    }
-    
+    // .tagline{
+    //     text-align: center;
+    //     font-size: 2rem;
+    // }
+
     .specials{
-        h1{
-            font-size: 1.5rem;
-            padding: 1rem;
+        display: block;
+        margin: auto;
+        width: 70vw;
+        border: 0.5rem solid #fc0313;
+        padding: 1rem;
+        background: #fefefecb;
+
+        p{
             text-align: center;
-            background: #000;
-            color: #fefefe;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        &_board{
+            h1{
+                font-size: 3rem;
+                font-family: 'Alumni Sans Pinstripe', sans-serif;
+                text-align: center;
+            }
         }
     }
 }

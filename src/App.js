@@ -3,18 +3,20 @@ import NavContainer from './components/Nav';
 import MenuContainer from './components/Menu';
 import HomeContainer from './components/Home';
 import CallContainer from './components/Call';
-// import background from './assets/images/IMG_1204.jpeg';
+import background from './assets/images/3461470.jpg';
 
 function App() {
   return (
-    <Router>
-      <NavContainer />
-      <Routes>
-        <Route exact path="/" element={ <HomeContainer /> } />
-        <Route exact path="menu" element={ <MenuContainer />} />
-      </Routes>
-      <CallContainer />
-    </Router>
+    <div style={{backgroundImage: `url(${background})`}}>
+      <Router>
+        <NavContainer />
+        <Routes>
+          <Route exact path="/" element={ <HomeContainer /> } />
+          <Route exact path="menu" element={ <MenuContainer />} />
+        </Routes>
+        <CallContainer />
+      </Router>
+    </div>
   );
 }
 

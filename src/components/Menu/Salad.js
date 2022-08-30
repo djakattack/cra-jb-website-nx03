@@ -4,18 +4,7 @@ const Salad = () => {
     return (
         <div className="salad-bar">
             <h1>Salad Bar</h1>
-            <div>
-                <p>Enjoy a salad from our salad bar.  Each of our salads are made to order to your specifications.  Below is a complete list of what's available.</p>
-                <br/>
-                <ul>
-                    <li className="addons">Add Chicken <span>$2.99</span></li>
-                    <li className="addons">Add Shrimp <span>$3.99</span></li>
-                    <li className="addons">Add Steak <span>$4.99</span></li>
-                    <li className="addons">Add Salmon <span>$6.99</span></li>
-                </ul>
-            </div>
             <div className="salad-bar-container">
-                <br />
                 <div className="row">
                     <ul className="column">
                         <li>Lettuce</li>
@@ -47,8 +36,8 @@ const Salad = () => {
                         <li>Eggs</li>
                         <li>Potato Salad</li>
                     </ul>
-                </div>
-                <h2>Dressings</h2>
+                </div><br/>
+                <h3>Dressings</h3>
                 <div className="row">
                     <ul className="column">
                         <li>Ranch</li>
@@ -63,8 +52,8 @@ const Salad = () => {
                         <li>Italian</li>
                         <li>House (Greek)</li>
                     </ul>
-                </div>
-                <h2>Toppers</h2>
+                </div><br/>
+                <h3>Toppers</h3>
                 <div className="row">
                     <ul className="column">
                         <li>Croutons</li>
@@ -76,8 +65,14 @@ const Salad = () => {
                         <li>Peanuts</li>
                         <li>Sunflower Seeds</li>
                     </ul>
-                </div>
-            </div>
+                </div><br/>
+                <ul>
+                    <li className="addons">Add Chicken <span>$2.99</span></li>
+                    <li className="addons">Add Shrimp <span>$3.99</span></li>
+                    <li className="addons">Add Steak <span>$4.99</span></li>
+                    <li className="addons">Add Salmon <span>$6.99</span></li>
+                </ul>
+            </div><br/>
         </div>
     )
 };

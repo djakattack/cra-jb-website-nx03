@@ -1,0 +1,25 @@
+.salad-bar {
+    &-container{
+      margin: auto;
+      padding: 1.5rem;
+    }
+    p {
+      // padding: 0.5rem;
+    }
+    .addons {
+      float: left;
+      padding: 0.5rem;
+    }
+  
+    .column {
+      float: left;
+      width: 50%;
+    }
+    
+    .row:after{
+      content: "";
+      display: table;
+      clear: both;
+    };
+  }
+  

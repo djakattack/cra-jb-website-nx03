@@ -1,4 +1,6 @@
 nav {
+    font-size: 2rem;
+    font-family: 'Special Elite';
     .container {
         margin: auto;
         width: 100vw;
@@ -6,7 +8,6 @@ nav {
         // position: absolute;
         top: 0;
         background: #000000;
-        z-index: 1;
     }
 
     ul {
@@ -21,4 +22,16 @@ nav {
             }
         }
     }
+}
+
+.call-container{
+    background: orange;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    // font-family: 'Special Elite';
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
 }

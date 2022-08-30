@@ -1,12 +1,12 @@
 import React from 'react';
-import steak from '../../assets/images/IMG_1208.jpeg';
+// import steak from '../../assets/images/IMG_1208.jpeg';
 
 const Home = () => {
-    var currentDate = new Date();
-    var currentDay = currentDate.getDay();
-    var currentTime = currentDate.getHours();
-    var shift;
-    var isLunch;
+    let currentDate = new Date();
+    let currentDay = currentDate.getDay();
+    let currentTime = currentDate.getHours();
+    let shift;
+    let isLunch;
 
     if(currentTime < 15){
         shift = "lunch";
@@ -67,16 +67,21 @@ const Home = () => {
 
     return (
         <div className="home_container">
-            <img src={steak} alt="steak"/>
             <div className="tagline">
                 <p>A Good Meal is Around the Corner!</p>
             </div>
             <div className="specials">
-                <h1>Today's Special</h1>
-                { isLunch ? offers[currentDay].lunch : offers[currentDay].dinner}
-                <h1>Soup of the Day</h1>
-                {offers[currentDay].soup1}<br/>
-                {offers[currentDay].soup2}<br/>
+                <div className="specials_board">
+                    <h1>Today's Special</h1>
+                    <p>
+                        { isLunch ? offers[currentDay].lunch : offers[currentDay].dinner}
+                    </p>
+                    <h1>Soup of the Day</h1>
+                    <p>
+                        {offers[currentDay].soup1}<br/>
+                        {offers[currentDay].soup2}<br/>
+                    </p>
+                </div>
             </div>
         </div>
     )
