@@ -7,7 +7,7 @@ import background from './assets/images/3461470.jpg';
 
 function App() {
   return (
-    <div style={{backgroundImage: `url(${background})`}}>
+    <div>
       <Router>
         <NavContainer />
         <Routes>

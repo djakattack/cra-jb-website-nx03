@@ -67,9 +67,6 @@ const Home = () => {
 
     return (
         <div className="home_container">
-            <div className="tagline">
-                <p>A Good Meal is Around the Corner!</p>
-            </div>
             <div className="specials">
                 <div className="specials_board">
                     <h1>Today's Special</h1>

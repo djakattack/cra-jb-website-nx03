@@ -1,7 +1,8 @@
 nav {
     font-size: 2rem;
     font-family: 'Special Elite';
-    .container {
+    .navigation-bar {
+        position: fixed;
         margin: auto;
         width: 100vw;
         display: inline-block;
@@ -12,10 +13,10 @@ nav {
 
     ul {
         text-align: center;
-        padding: 15px;
+        padding: 0.5rem;
         li {
             display: inline;
-            padding: 10px;
+            padding: 0.5rem;
             color: #f2f2f2;
             &:hover {
                 color: #6EA3DB;

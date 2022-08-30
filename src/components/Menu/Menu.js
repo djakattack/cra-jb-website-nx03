@@ -19,6 +19,7 @@ const Menu = () => {
             <Steaks />
             <Lunch />
             <Dinner />
+            <div className="buffer"></div>
         </main>
     )
 };
