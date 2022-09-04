@@ -8,7 +8,7 @@ const Specials = () => {
             <h6>Lunch</h6>
             <p>Grilled Chicken or Porck Chop entrée with side and salad bar. <span className="price">$8.99</span></p>
             <h6>Dinner</h6>
-            <p>Grilled Chicken or Porck Chop entrée with side and salad bar. <span className="price">$9.99</span></p>
+            <p>Grilled Chicken or Pork Chop entrée with side and salad bar. <span className="price">$9.99</span></p>
             
             <h2>Tuesday</h2>
             <h6>Lunch</h6>

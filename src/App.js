@@ -3,7 +3,7 @@ import NavContainer from './components/Nav';
 import MenuContainer from './components/Menu';
 import HomeContainer from './components/Home';
 import CallContainer from './components/Call';
-import background from './assets/images/3461470.jpg';
+import NXContainer from './components/NX';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={ <HomeContainer /> } />
           <Route exact path="menu" element={ <MenuContainer />} />
+          <Route exact path="nx" element={<NXContainer />} />
         </Routes>
         <CallContainer />
       </Router>

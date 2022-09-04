@@ -3,6 +3,7 @@ import React from 'react';
 const Salad = () => {
     return (
         <div className="salad-bar">
+            <div id="salads"></div>
             <h1>Salad Bar</h1>
             <div className="salad-bar-container">
                 <div className="row">

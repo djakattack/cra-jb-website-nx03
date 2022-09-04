@@ -2,8 +2,7 @@ import React from 'react';
 
 const Appetizers = () => {
     return (
-        <div className="menu-container">
-            <h1>Appetizers</h1>
+        <div>
             <div className="cards">
                 <div className="card">
                     <h3>Chicken Tenders <span>$8.29</span></h3>
