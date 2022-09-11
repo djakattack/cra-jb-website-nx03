@@ -1,4 +1,39 @@
-.menu-container {
+
+// This is a switch to switch between
+// @CONTIGUOUS MENU -- .menu-container
+// @SEPARATE MENU CARDS -- .container
+// esnure that at least one of each is commented out
+
+
+// .menu-container {
+.container {
+    border-radius: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    padding: 1rem;
+
+    .center {
+        margin: auto;
+        text-align: center;
+    }
+
+    .addons {
+        float: left;
+        padding: 0.5rem;
+      }
+    
+      .column {
+        float: left;
+        width: 50%;
+      }
+      
+      .row:after{
+        content: "";
+        display: table;
+        clear: both;
+      };
+
     span {
         // color: rgb(0, 157, 255);
         font-weight: bold;
@@ -15,15 +50,17 @@
     margin-top: 3.5rem;
     h1 {
         font-size: 1.5rem;
+        font-weight: 1000;
+        font-size: 3rem;
         text-align: center;
-        font-family: 'Special Elite';
         padding: 0.25rem;
+    }
+    h2, h3 {
+        font-size: 2rem;
+        font-weight: 700;
     }
     &__buffer{
         padding: 1rem;
-    }
-    .buffer {
-        margin-bottom: 4rem;
     }
 }
 
@@ -37,8 +74,9 @@
 .cards {
     max-width: 1200px;
     background-color: #FEFEFE;
+    border-radius: 2rem;
     // width: 95vw;
-    margin: 0 auto;
+    // margin: 0 auto;
     align-items: center;
     display: grid;
     // gap: 1rem;

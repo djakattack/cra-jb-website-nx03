@@ -2,7 +2,7 @@ import React from 'react';
 
 const Specials = () => {
     return (
-        <div>
+        <div className="container">
             <h1>Weekly Specials</h1>
             <h2>Monday</h2>
             <h6>Lunch</h6>

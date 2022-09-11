@@ -5,7 +5,7 @@ const Soup = () => {
     var currentDay = currentDate.getDay();
 
     return (
-        <div>
+        <div className="container">
             <h1>Soups</h1>
             <p>
                 {currentDay}

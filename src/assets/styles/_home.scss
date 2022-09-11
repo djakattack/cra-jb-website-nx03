@@ -1,21 +1,30 @@
 .home_container{
     margin-top: 4rem;
-    // .tagline{
-    //     text-align: center;
-    //     font-size: 2rem;
-    // }
 
     .specials{
         display: block;
         margin: auto;
         width: 70vw;
-        border: 0.5rem solid #fc0313;
+        // color: #fefefe;
+        background-color: #FEFEFE;
         padding: 1rem;
-        background: #fefefecb;
+        // animation: pulsate 1.5s infinite alternate;  
+        border: 0.2rem solid #fff;
+        border-radius: 2rem;
+        padding: 0.4rem;
+        border: 0.25rem solid red;
+        // box-shadow: 0 0 .2rem #fff,
+        //         0 0 .2rem #fff,
+        //         0 0 2rem #C11717,
+        //         0 0 0.8rem #C11717,
+        //         0 0 2.8rem #C11717,
+        //         inset 0 0 1.3rem #C11717;
 
         p{
             text-align: center;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: 'Alumni Sans Pinstripe', sans-serif;
+            font-size: 1.5rem;
+            color: black;
         }
 
         &_board{
@@ -23,6 +32,7 @@
                 font-size: 3rem;
                 font-family: 'Alumni Sans Pinstripe', sans-serif;
                 text-align: center;
+                color: black;
             }
         }
     }

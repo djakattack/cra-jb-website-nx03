@@ -2,7 +2,7 @@ import React from 'react';
 
 const Salad = () => {
     return (
-        <div className="salad-bar">
+        <div className="salad-bar container">
             <div id="salads"></div>
             <h1>Salad Bar</h1>
             <div className="salad-bar-container">
@@ -66,14 +66,14 @@ const Salad = () => {
                         <li>Peanuts</li>
                         <li>Sunflower Seeds</li>
                     </ul>
-                </div><br/>
-                <ul>
-                    <li className="addons">Add Chicken <span>$2.99</span></li>
-                    <li className="addons">Add Shrimp <span>$3.99</span></li>
-                    <li className="addons">Add Steak <span>$4.99</span></li>
-                    <li className="addons">Add Salmon <span>$6.99</span></li>
-                </ul>
-            </div><br/>
+                    <ul>
+                        <li className="addons">Add Chicken <span>$2.99</span></li>
+                        <li className="addons">Add Shrimp <span>$3.99</span></li>
+                        <li className="addons">Add Steak <span>$4.99</span></li>
+                        <li className="addons">Add Salmon <span>$6.99</span></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 };

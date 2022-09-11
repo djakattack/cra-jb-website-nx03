@@ -6,7 +6,7 @@ import prime from '../../assets/images/Prime-Rib-6.jpg';
 import filet from '../../assets/images/images-2.jpeg';
 const Steaks = () => {
     return(
-        <div>
+        <div className="container">
             <div id="steaks"></div>
             <h1>Steaks</h1>
             <p>

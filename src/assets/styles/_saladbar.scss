@@ -2,21 +2,5 @@
     &-container{
       margin: auto;
     }
-    
-    .addons {
-      float: left;
-      padding: 0.5rem;
-    }
-  
-    .column {
-      float: left;
-      width: 50%;
-    }
-    
-    .row:after{
-      content: "";
-      display: table;
-      clear: both;
-    };
-  }
+}
   

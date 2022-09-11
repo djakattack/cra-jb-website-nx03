@@ -2,7 +2,8 @@ import React from 'react';
 
 const Appetizers = () => {
     return (
-        <div>
+        <div className="container">
+            <h1>Appetizers</h1>
             <div className="cards">
                 <div className="card">
                     <h3>Chicken Tenders <span>$8.29</span></h3>
@@ -19,7 +20,7 @@ const Appetizers = () => {
                 </div>
                 <div className="card">
                     <h3>Mozzarella Sticks <span>6.99</span></h3>
-                    <p>Served with homemade ranch.</p>
+                    <p>Served with marinara sauce.</p>
                 </div>
                 <div className="card">
                     <h3>Potato Skins <span>$7.49</span></h3>

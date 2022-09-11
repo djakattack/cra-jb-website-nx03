@@ -3,13 +3,30 @@
 @import './assets/styles/menu';
 @import './assets/styles/home';
 @import './assets/styles/saladbar';
-@import './components/NX/styles/nx';
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 
-body{
+body {
+    background: #000;
     background: {
         image: url('./assets/images/3461470.jpg');
     };
+}
+
+// These buffer classes are used primarily in testing, but given that they have a specific use for overall styling, I'm placing them here rather than in the NX stylesheet.
+.buffer {
+    margin-bottom: 4rem;
+    &-1 {
+        padding: 2rem;
+    }
+    &-2 {
+        padding: 0.5rem;
+    }
+}
+
+
+
+body{
+
 }
