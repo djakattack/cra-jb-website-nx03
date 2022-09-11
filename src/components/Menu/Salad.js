@@ -1,10 +1,14 @@
 import React from 'react';
+import Addons from './Addons';
 
 const Salad = () => {
     return (
         <div className="container">
             <h1>Salad Bar</h1>
-            <div className="salad-bar-container">
+            <div className="buffer-3"></div>
+            <Addons />
+            <div className="buffer-2"></div>
+            <div>
                 <div className="row">
                     <ul className="column">
                         <li>Lettuce</li>
@@ -37,7 +41,7 @@ const Salad = () => {
                         <li>Potato Salad</li>
                     </ul>
                 </div><br/>
-                <h3>Dressings</h3>
+                <h3 className="center">Dressings</h3>
                 <div className="row">
                     <ul className="column">
                         <li>Ranch</li>
@@ -53,7 +57,7 @@ const Salad = () => {
                         <li>House (Greek)</li>
                     </ul>
                 </div><br/>
-                <h3>Toppers</h3>
+                <h3 className="center">Toppers</h3>
                 <div className="row">
                     <ul className="column">
                         <li>Croutons</li>
@@ -64,12 +68,6 @@ const Salad = () => {
                         <li>Raisins</li>
                         <li>Peanuts</li>
                         <li>Sunflower Seeds</li>
-                    </ul>
-                    <ul>
-                        <li className="addons">Add Chicken <span>$2.99</span></li>
-                        <li className="addons">Add Shrimp <span>$3.99</span></li>
-                        <li className="addons">Add Steak <span>$4.99</span></li>
-                        <li className="addons">Add Salmon <span>$6.99</span></li>
                     </ul>
                 </div>
             </div>

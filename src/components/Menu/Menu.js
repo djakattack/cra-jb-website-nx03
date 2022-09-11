@@ -3,6 +3,8 @@ import Appetizers from "./Appetizers";
 import Lunch from "./Lunch";
 import Salad from "./Salad";
 import Steaks from './Steaks';
+import Specials from './Specials';
+import Seafood from './Seafood';
 import Sides from './Sides';
 import Desserts from './Desserts';
 
@@ -11,9 +13,11 @@ const Menu = () => {
         <main className="menu-container">
             <div>
                 <div className="buffer-2"></div>
-                <Appetizers />       
+                <Specials />
                 <Lunch />
+                <Appetizers />       
                 <Steaks />
+                <Seafood />
                 <Salad />
                 <Sides />
                 <Desserts />

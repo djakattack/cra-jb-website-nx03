@@ -17,28 +17,49 @@ const Steaks = () => {
             </p>
             <div className="cards">
                 <div className="card">
-                        Chopped Steak<br/>
-                        <img src={chop} alt="chop"/>
+                    <h2>Chopped Steak</h2>
+                    <img src={chop} alt="chop"/>
+                    <p>High quality marinated ground beef, cooked to taste and smothered in satuéed mushroom and onions.</p>
+                    <ul>
+                        <li>8oz <span>$13.99</span></li>
+                        <li>12oz <span>$15.99</span></li>
+                    </ul>
                 </div>
                 <div className="card">
-                        Sirloin<br/>
-                        <img src={sirloin} alt="sirloin"/>
+                    <h2>Sirloin (Our leanest steak)</h2>
+                    <img src={sirloin} alt="sirloin"/>
+                    <p>Flavorful, premium choice grade filet of sirloin</p>
+                    <ul>
+                        <li>6oz <span>$17.99</span></li>
+                        <li>8oz <span>$19.99</span></li>
+                    </ul>
                 </div>
                 <div className="card">
-                        Ribeye<br/>
-                        <img src={ribeye} alt="ribeye"/>
+                    <h2>Ribeye (Our most flavorful steak)</h2>
+                    <img src={ribeye} alt="ribeye"/>
+                    <p>Premium choice grade ribeye loin trimmed, aged, seasoned, cut to order, and cooked to perfection.</p>
+                    <ul>
+                        <li>8oz <span>$24.99</span></li>
+                        <li>10oz <span>$26.99</span></li>
+                        <li>12oz <span>$28.99</span></li>
+                        <li>16oz <span>$36.99</span></li>
+                    </ul>
                 </div>
                 <div className="card">
-                    <div>
-                        Filet<br/>
-                        <img src={filet} alt="filet"/>
-                    </div>
+                    <h2>Filet (Our most tender steak)</h2>
+                    <img src={filet} alt="filet"/>
+                    <p>Premium choice grade tenderloin filet.</p>
+                    <p>8oz <span>$36.99</span></p>
                 </div>
                 <div className="card">
-                    <div>
-                        Prime Rib<br/>
-                        <img src={prime} alt="prime"/>
-                    </div>
+                    <h2>Prime Rib (Our richest steak)</h2>
+                    <img src={prime} alt="prime"/>
+                    <p>Premium choic ribeye, rubbedx, marinated, slow cooked, cut to order, and served with Au Jus.</p>
+                    <ul>
+                        <li>10oz Heifer Cut <span>$30.99</span></li>
+                        <li>12oz Bull Cut <span>$32.99</span></li>
+                        <li>16oz Cowboy Cut <span>$40.99</span></li>
+                    </ul>
                 </div>
             </div>
         </div>

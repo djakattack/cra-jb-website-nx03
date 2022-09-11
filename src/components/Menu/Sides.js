@@ -24,8 +24,8 @@ const Sides = () => {
             <h2 className="center">Special Sides</h2>
             <ul className="center">
                 <li>Boiled Potatoes (Tuesday Only)</li>
-                <li>Corn Pudding</li>
-                <li>Corn Pudding</li>
+                <li>Corn Pudding (Wednesday Only)</li>
+                <li>Mashed Potatoes (Wednesday Only)</li>
             </ul>
 
         </div>
