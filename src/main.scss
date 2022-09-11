@@ -2,16 +2,16 @@
 @import './assets/styles/nav';
 @import './assets/styles/menu';
 @import './assets/styles/home';
-@import './assets/styles/saladbar';
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 
 body {
-    background: #000;
     background: {
         image: url('./assets/images/3461470.jpg');
+        color: #000;
     };
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
 
 // These buffer classes are used primarily in testing, but given that they have a specific use for overall styling, I'm placing them here rather than in the NX stylesheet.
@@ -23,10 +23,4 @@ body {
     &-2 {
         padding: 0.5rem;
     }
-}
-
-
-
-body{
-
 }

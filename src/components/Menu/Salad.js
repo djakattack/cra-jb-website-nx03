@@ -2,8 +2,7 @@ import React from 'react';
 
 const Salad = () => {
     return (
-        <div className="salad-bar container">
-            <div id="salads"></div>
+        <div className="container">
             <h1>Salad Bar</h1>
             <div className="salad-bar-container">
                 <div className="row">

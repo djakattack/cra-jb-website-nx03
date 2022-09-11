@@ -3,8 +3,8 @@ import React from 'react';
 const Lunch = () => {
     return(
         <div className="container">
-            <h1>LUNCH</h1>
-            <p>Available weekdays until 2:30PM</p>
+            <h1>Lunch</h1>
+            <p className="center">Available weekdays until 2:30PM</p>
         </div>
     )
 };
