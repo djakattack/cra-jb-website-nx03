@@ -1,5 +1,6 @@
 import React from 'react';
 // import steak from '../../assets/images/IMG_1208.jpeg';
+import Specials from '../Menu/Specials';
 
 const Home = () => {
     let currentDate = new Date();
@@ -80,6 +81,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
+            <Specials />
         </div>
     )
 }

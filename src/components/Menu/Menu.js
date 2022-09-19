@@ -13,12 +13,11 @@ const Menu = () => {
         <main className="menu-container">
             <div>
                 <div className="buffer-2"></div>
-                <Specials />
+                <Salad />
+                <Steaks />
                 <Lunch />
                 <Appetizers />       
-                <Steaks />
                 <Seafood />
-                <Salad />
                 <Sides />
                 <Desserts />
             </div>

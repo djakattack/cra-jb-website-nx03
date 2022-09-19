@@ -7,7 +7,7 @@ import NXContainer from './components/NX';
 
 function App() {
   return (
-    <div>
+    <div className="root">
       <Router>
         <NavContainer />
         <Routes>
