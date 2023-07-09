@@ -11,7 +11,14 @@ const Home = () => {
 
     if(currentTime < 15){
         shift = "lunch";
-    } else {
+    }
+    if(currentDay === 0){
+        shift = "dinner";
+    }
+    if(currentDay === 6){
+        shift = "dinner";
+    }
+    else {
         shift = "dinner";
     };
 
