@@ -1,26 +1,63 @@
 @import './assets/styles/reset';
+@import './assets/styles/config';
 @import './assets/styles/nav';
 @import './assets/styles/menu';
 @import './assets/styles/home';
+@import './assets/styles/call';
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
 
 body {
-    background: {
-        image: url('./assets/images/3461470.jpg');
-        color: #000;
-    };
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Baskerville';
+    background-color: #000;
+    background: url('./assets/images/3461470.jpg');
 }
 
-// These buffer classes are used primarily in testing, but given that they have a specific use for overall styling, I'm placing them here rather than in the NX stylesheet.
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 0.55rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    width: 90vw;
+    background-color: $primary-color;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+
+
+    p{
+
+        font-size: 1.25rem;
+    }
+}
+
 .buffer {
-    margin-bottom: 4rem;
-    &-1 {
-        padding: 2rem;
-    }
-    &-2 {
-        padding: 0.5rem;
-    }
+    height: 100px;
 }

@@ -1,0 +1,8 @@
+$primary-color: #fefefe;
+$text-color: #000;
+$secondary-color: #FF0000;
+
+
+@mixin easeOut {
+    transition: all 0.25s ease-out;   
+}

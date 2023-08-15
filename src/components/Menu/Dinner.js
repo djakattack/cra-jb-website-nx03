@@ -1,10 +1,7 @@
 import React from 'react';
 
 const Dinner = () => {
-    return(
-        <div className="container">
-        </div>
-    )
+    return
 };
 
 export default Dinner

@@ -1,36 +1,3 @@
 .home_container{
     margin-top: 4rem;
-    .specials{
-        display: block;
-        margin: auto;
-        width: 70vw;
-        // color: #fefefe;
-        background-color: #FEFEFE;
-        padding: 1rem;
-        // animation: pulsate 1.5s infinite alternate;  
-        border: 0.2rem solid #fff;
-        border-radius: 2rem;
-        padding: 0.4rem;
-        // border: 0.25rem solid red;
-        // box-shadow: 0 0 .2rem #fff,
-        //         0 0 .2rem #fff,
-        //         0 0 2rem #C11717,
-        //         0 0 0.8rem #C11717,
-        //         0 0 2.8rem #C11717,
-        //         inset 0 0 1.3rem #C11717;
-
-        p{
-            text-align: center;
-            font-size: 1.5rem;
-            color: black;
-        }
-
-        &_board{
-            h1{
-                font-size: 3rem;
-                text-align: center;
-                color: black;
-            }
-        }
-    }
 }

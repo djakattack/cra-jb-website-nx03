@@ -34,8 +34,7 @@ const Menu = () => {
 
     return (
         <main className="menu-container">
-            <div>
-                <div className="buffer-2"></div>
+            <div class>
                 <Salad />
                 { isLunch ? <Lunch /> : <Dinner />}
                 <Steaks />
