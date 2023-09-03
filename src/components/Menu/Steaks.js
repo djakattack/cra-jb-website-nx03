@@ -15,28 +15,25 @@ const Steaks = () => {
             <p>
                 Upgrade your side to Onion Rings or Sweet Potato Waffle Fries for <span>$1</span> more.
             </p>
-            <div className="cards">
-                <div className="card">
+            <div>
+                <div>
                     <h2>Chopped Steak</h2>
-                    {/* <img src={chop} alt="chop"/> */}
                     <p>High quality marinated ground beef, cooked to taste and smothered in satuéed mushroom and onions.</p>
                     <ul>
                         <li>8oz <span>$13.99</span></li>
                         <li>12oz <span>$15.99</span></li>
                     </ul>
                 </div>
-                <div className="card">
+                <div>
                     <h2>Sirloin (Our leanest steak)</h2>
-                    {/* <img src={sirloin} alt="sirloin"/> */}
                     <p>Flavorful, premium choice grade filet of sirloin</p>
                     <ul>
                         <li>6oz <span>$17.99</span></li>
                         <li>8oz <span>$19.99</span></li>
                     </ul>
                 </div>
-                <div className="card">
+                <div>
                     <h2>Ribeye (Our most flavorful steak)</h2>
-                    {/* <img src={ribeye} alt="ribeye"/> */}
                     <p>Premium choice grade ribeye loin trimmed, aged, seasoned, cut to order, and cooked to perfection.</p>
                     <ul>
                         <li>8oz <span>$24.99</span></li>
@@ -45,15 +42,13 @@ const Steaks = () => {
                         <li>16oz <span>$36.99</span></li>
                     </ul>
                 </div>
-                <div className="card">
+                <div>
                     <h2>Filet (Our most tender steak)</h2>
-                    {/* <img src={filet} alt="filet"/> */}
                     <p>Premium choice grade tenderloin filet.</p>
                     <p>8oz <span>$36.99</span></p>
                 </div>
-                <div className="card">
+                <div>
                     <h2>Prime Rib (Our richest steak)</h2>
-                    {/* <img src={prime} alt="prime"/> */}
                     <p>Premium choic ribeye, rubbedx, marinated, slow cooked, cut to order, and served with Au Jus.</p>
                     <ul>
                         <li>10oz Heifer Cut <span>$30.99</span></li>
